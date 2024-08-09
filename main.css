@@ -1,5 +1,17 @@
 body{
- font-family: "Roboto Mono", monospace;
+ font-family: "Inter", sans-serif;
+ display: flex;
+ justify-content: center;
+}
+
+.course_register{
+ display: flex;
+ flex-direction: column;
+}
+
+.form_heading{
+ display: flex;
+ justify-content: space-between;
 }
 
 .kontrolna_sprava{
@@ -10,4 +22,42 @@ body{
 .gratulacia{
  padding: 2rem;
  background-color: rgb(117, 204, 108);
+}
+
+input[type="text"],input[type="email"]{
+ padding: 1rem;
+ background-color: #e8e8e8;
+}
+
+.course_form_registration_container h1 {
+ font-size: 2.5rem;
+}
+
+.btn{
+ padding: 1rem;
+}
+
+select {
+ border: none;
+ padding: 1rem;
+ overflow: hidden;
+}
+
+select:active,
+select:focus {
+ outline: none;
+ border: none;
+ overflow: hidden;
+}
+
+.course_form_registration_container{
+ display: flex;
+ max-width: 50rem;
+ flex-direction: column;
+ border: solid 1px rgb(194, 194, 194);
+ padding-top: 1.25rem;
+ gap: 1rem;
+ padding: 1.25rem;
+ border-radius: 0.625rem;
+ overflow: hidden; /* Add this line */
 }
