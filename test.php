@@ -1,6 +1,4 @@
 <?php
-
-
 $test0 = null; // Gives False
 $test1 = ""; // Gives False
 $test2 = '01'; // Gives True
@@ -56,4 +54,3 @@ if ($test3){
 
 <?php include 'head.php'; ?>
 <?php include 'foot.php'; ?>
-
