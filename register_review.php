@@ -25,15 +25,20 @@ echo '</h1>';
 
 
 <?php include 'head.php'; ?>
+<div class='kontrolna_sprava'>
+ <h1>
+ Skontrolujte si prosím nižšie vami uvedené údaje. Ak je všetko v poriadku a chcete sa naozaj zaregistrovať, kliknite na tlačidlo „Registrovať“. Ak potrebujete upraviť údaje, kliknite na tlačidlo „Opraviť“.
 
-<h1>
- Skontrolujte si prosim vase udaje a v pripade, ze je vsetko v poriadku a naozaj sa chete registrovat, pouzite tlacitko Registrovat.
- V opacnom pripade sa mozete vratit spat a formular opravit cez tlaciko opravit.
-</h1>
+ Ak ste sa omylom zaregistrovali so zlými údajmi, neváhajte nám napísať na e-mail info@betakurzy.sk a radi vám pomôžeme.
+ </h1>
+</div>
+<div class='user_check'>
+
+</div>
 
 <form action="register_confirmed.php" method='post'>
-<button type='submit'>Registrovat</button> 
-<button type='submit' formaction="index.php">Opravit udaje</button>
+<button type='submit'>Registrovať</button> 
+<button type='submit' formaction="index.php">Opraviť</button>
 </form>
 
 <?php include 'foot.php'; ?>

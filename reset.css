@@ -1,0 +1,76 @@
+/* Basic Reset / Normalize */
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, table, th, td, form, input, textarea, button {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ box-sizing: border-box;
+ font-family: inherit;
+ font-size: inherit;
+ line-height: 1.5;
+}
+
+/* Ensure proper rendering and touch zooming */
+html {
+ font-size: 100%;
+}
+
+/* Remove list styles (bullets/numbers) */
+ul, ol {
+ list-style: none;
+}
+
+/* Remove table spacing */
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+/* Remove default form input styles */
+input, textarea, select, button {
+ font-family: inherit;
+ font-size: inherit;
+}
+
+/* Ensure all elements respect box-sizing */
+*, *::before, *::after {
+ box-sizing: border-box;
+}
+
+/* Improve font rendering */
+body {
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ line-height: 1.5;
+}
+
+/* Basic link styles */
+a {
+ color: inherit;
+ text-decoration: none;
+}
+
+a:hover, a:focus {
+ text-decoration: underline;
+}
+
+/* Set default spacing for headings and paragraphs */
+h1, h2, h3, h4, h5, h6 {
+ margin-bottom: 0.5em;
+}
+
+p {
+ margin-bottom: 1em;
+}
+
+/* Add a little default spacing for forms */
+form {
+ margin: 0;
+}
+
+/* Add a little default spacing for buttons */
+button {
+ border: none;
+ background: none;
+ padding: 0;
+ margin: 0;
+}

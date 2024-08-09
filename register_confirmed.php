@@ -6,7 +6,7 @@ $registration_successful_msg = 'Gratulujeme, registracia prebehla uspesne. Kopia
 <?php include 'head.php'; ?>
 
  <!-- PHP outputs HTML content -->
- <h1><?= $registration_successful_msg; ?></h1>
+ <h1 class='gratulacia'><?= $registration_successful_msg; ?></h1>
 
 <!--Wait for 3 seconds before redirecting -->
 <script>
