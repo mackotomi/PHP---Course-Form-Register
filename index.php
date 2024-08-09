@@ -29,7 +29,7 @@ Registracia na kurz.
 
  <!-- Operacny system -->
  <label for="os">Aky operacny system pouzivate?</label><br>
-  <select id="os" name="os" multiple size="3" required>
+  <select class="form-select form-select-sm" aria-label="Small select id="os" name="os" multiple size="3" required>
    <option value="windows">WindowsOS</option>
    <option value="apple">MacOS</option>
    <option value="linux">LinuxOS</option>
@@ -37,14 +37,14 @@ Registracia na kurz.
 
  <!-- Kurz -->
  <label for="courses">Zvolte si kurz:</label><br>
-  <select id="courses" name="courses" multiple size="5" required>
+  <select class="form-select form-select-sm" aria-label="Small select id="courses" name="courses" multiple size="5" required>
    <option value="Adobe Photoshop Zaklady">Adobe Photoshop Zaklady</option>
    <option value="Adobe Illustrator Zaklady">Adobe Illustrator Zaklady</option>
    <option value="Zaklady Kreslenia">Zaklady Kreslenia</option>
    <option value="Blender">Blender</option>
    <option value="Pixologic Zbrush">Pixologic Zbrush</option>
   </select><br><br>
-  <input type="submit" value="Nezavazne sa registrovat">
+  <input class="btn btn-primary btn-lg" type="submit" value="Kontrola Udajov">
 </form>
 
 <?php include 'foot.php'; ?>
