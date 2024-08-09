@@ -1,56 +1,27 @@
 <?php
-$test0 = null; // Gives False
-$test1 = ""; // Gives False
-$test2 = '01'; // Gives True
-$test3 = 01; // Gives True
 
-// echoing the variables to check what prints out
+include 'functions.php';
 
-echo $test0 . '<br>'; // Gives False
-echo $test1 . '<br>'; // Gives False
-echo $test2 . '<br>'; // Gives True
-echo $test3 . '<br>'; // Gives True
+$arrayKeyNames = [
+ '1st user is' => 'Michal',
+ '2nd user is' => 'Sonya',
+ '3rd user is' => 'Thomas',
+ '4th user is' => 'Joshua',
+ '5th user is' => 'Enyio',
+];
 
-echo '<br>';
-
-// Gives False because $test0 is empty
-
-if ($test0){
- echo 'true';
-} else {
- echo 'false';
-}
-
-echo '<br>';
-
-// Gives False because $test1 is empty
-
-if ($test1){
- echo 'true';
-} else {
- echo 'false';
-}
-
-echo '<br>';
-
-// Gives True because $test2 is not empty
-
-if ($test2){
- echo 'true';
-} else {
- echo 'false';
-}
-
-echo '<br>';
-
-// Gives True because $test3 is not empty
-if ($test3){
- echo 'true';
-} else {
- echo 'false';
-}
+printerator($arrayKeyNames);
 
 ?>
 
-<?php include 'head.php'; ?>
-<?php include 'foot.php'; ?>
+<? include 'head.php' ?>
+
+<ul>
+ <?php foreach ($arrayKeyNames as $key => $value) {
+  echo '<li>' . ' ' . $key . ' ' . $value .'</li>';
+ }
+ ?>
+</ul>
+
+
+<? include 'foot.php' ?>
